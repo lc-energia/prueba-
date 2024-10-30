@@ -137,6 +137,21 @@
 </nav>
 <!-- Navbar End -->
 
+ <!-- Page Header Start -->
+ <div class="container-fluid page-header py-5 mb-5">
+    <div class="container py-5">
+        <h1 class="display-3 text-white mb-3 animated slideInDown">Impianti Fotovoltaici</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="#">Impianti</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Impianti Fotovoltaici</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
+
 <!-- Testimonial Start -->
 <div class="container-xxl py-5">
     <div class="container">
@@ -198,14 +213,47 @@
         <div class="row g-4">
             <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="team-item rounded overflow-hidden">
+                    <style>
+                        .image-container {
+                            width: 150px; /* Ancho fijo para cada contenedor */
+                            height: 150px; /* Alto fijo para cada contenedor */
+                            display: flex; /* Permite centrar la imagen */
+                            justify-content: center; /* Centra horizontalmente */
+                            align-items: center; /* Centra verticalmente */
+                            overflow: hidden; /* Oculta cualquier parte que sobresalga */
+                            margin: 3px; /* Espacio entre imágenes */
+                            border: 1px solid #ccc; /* (Opcional) borde para distinguir los contenedores */
+                        }
+                    
+                        .image-container img {
+                            max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+                            max-height: 100%; /* Asegura que la imagen no se salga del contenedor */
+                            object-fit: contain; /* Mantiene la proporción de la imagen sin recortes */
+                        }
+                    </style>
+                    
                     <div class="d-flex justify-content-between flex-wrap">
-                        <img class="img-fluid w-75" src="img/image1.png" alt="Colaborador 1" style="max-width: 150px; margin: 5px;">
-                        <img class="img-fluid w-75" src="img/image2.png" alt="Colaborador 2" style="max-width: 150px; margin: 5px;">
-                        <img class="img-fluid w-75" src="img/image3.png" alt="Colaborador 3" style="max-width: 150px; margin: 5px;">
-                        <img class="img-fluid w-75" src="img/image4.png" alt="Colaborador 4" style="max-width: 150px; margin: 5px;">
-                        <img class="img-fluid w-75" src="img/image5.png" alt="Colaborador 5" style="max-width: 150px; margin: 5px;">
-                        <img class="img-fluid w-75" src="img/image6.png" alt="Colaborador 6" style="max-width: 150px; margin: 5px;">
-                        <img class="img-fluid w-75" src="img/image7.png" alt="Colaborador 6" style="max-width: 150px; margin: 5px;">
+                        <div class="image-container">
+                            <img class="img-fluid" src="img/image1.png" alt="Colaborador 1">
+                        </div>
+                        <div class="image-container">
+                            <img class="img-fluid" src="img/image2.png" alt="Colaborador 2">
+                        </div>
+                        <div class="image-container">
+                            <img class="img-fluid" src="img/image3.png" alt="Colaborador 3">
+                        </div>
+                        <div class="image-container">
+                            <img class="img-fluid" src="img/image4.png" alt="Colaborador 4">
+                        </div>
+                        <div class="image-container">
+                            <img class="img-fluid" src="img/image5.png" alt="Colaborador 5">
+                        </div>
+                        <div class="image-container">
+                            <img class="img-fluid" src="img/image6.png" alt="Colaborador 6">
+                        </div>
+                        <div class="image-container">
+                            <img class="img-fluid" src="img/image7.png" alt="Colaborador 7">
+                        </div>
                     </div>
                 </div>
             </div>
