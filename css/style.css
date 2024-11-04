@@ -212,7 +212,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/slider.png) center center no-repeat;
+    background: linear-gradient(rgba(14, 145, 201, 0.435), rgba(202, 215, 22, 0.57)), url(../img/slider1.png) center center no-repeat;
     background-size: cover;
 }
 
